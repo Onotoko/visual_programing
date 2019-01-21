@@ -10,8 +10,11 @@ VESM is based on [Google Blockly API](https://developers.google.com/blockly/), w
 * Programming Smart Contract with visually drag and drop code blocks
 * Generate fully compatible Smart Contract source code based on EOSIO 
 
-### License
+### Demo
+  <img src="blockly/media/visual_smartContract.png" alt="Koa middleware framework for nodejs"/>
 
+
+### License
 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
