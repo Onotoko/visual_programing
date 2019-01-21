@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visual Editor for Smart Contract</title>
+
+</head>
+<body onload="start()">
+
+<div style="width: 100%">
+  <div id="blocklyDiv"
+       style="display: inline-block; height: 480px; width: 58%"></div>
+  <textarea id="code4Cplusplus" disabled="disabled"
+            style="display: inline-block; height: 480px; width: 38%;">
+  </textarea>
+</div>
+
+<xml id="toolbox" style="display: none">
+  <category name="Normal commands">
+    <block type="contract"></block>
+    <block type="access"></block>
+    <block type="action"></block>
+    <block type="table"></block>
+  </category>
+  <category name = "Special command">
+    <block type="eos_macro"></block>
+    <!--block<block type="primary_key"></block>-->
+    <!--<block type="require_auth"></block>-->
+    <!--<block type="transfer_token"></block>-->
+  </category>
+  <category name="Variables">
+    <block type="variable"></block>
+  </category>
+  <category name="Parameters">
+    <block type="parameter"></block>
+  </category>
+  <category name="Condition commands">
+    <block type="controls_if"></block>
+  </category>
+  <category name="Text commands">
+    <block type="print_text"></block>
+    <block type="text_name"></block>
+  </category>
+</xml>
+
+<script type="text/javascript" src="blockly/blockly_compressed.js"></script>
+<script type="text/javascript" src="blockly/blocks_compressed.js"></script>
+
+<script type="text/javascript" src="blockly/msg/js/en.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/validator.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/contracts.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/actions.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/constructors.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/variables.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/tables.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/text.js"></script>
+<script type="text/javascript" src="blockly/generators/smartcontract/macro.js"></script>
+
+
+<script type="text/javascript" src="blockly/blocks/contracts.js"></script>
+<script type="text/javascript" src="blockly/blocks/constructors.js"></script>
+<script type="text/javascript" src="blockly/blocks/actions.js"></script>
+<script type="text/javascript" src="blockly/blocks/variables.js"></script>
+<script type="text/javascript" src="blockly/blocks/tables.js"></script>
+<script type="text/javascript" src="blockly/blocks/text.js"></script>
+<script type="text/javascript" src="blockly/blocks/macro.js"></script>
+
+<script type="text/javascript" src="js/code.js"></script>
+</body>
+</html>
